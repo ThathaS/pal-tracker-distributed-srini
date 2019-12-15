@@ -1,6 +1,6 @@
 applications:
-- name: tracker-backlog-thatha
-  path: ./applications/backlog-server/build/libs/backlog-server-thatha.jar
+- name: tracker-backlog
+  path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
   - route: backlog-pal-thatha.cfapps.io
   memory: 1G
