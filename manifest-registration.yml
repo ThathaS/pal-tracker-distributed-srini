@@ -1,6 +1,6 @@
 applications:
-- name: tracker-registration-thatha
-  path: ./applications/registration-server/build/libs/registration-server-thatha.jar
+- name: tracker-registration
+  path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route: registration-pal-thatha.cfapps.io
   memory: 1G

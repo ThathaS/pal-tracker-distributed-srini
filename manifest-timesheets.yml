@@ -1,6 +1,6 @@
 applications:
-- name: tracker-timesheets-thatha
-  path: ./applications/timesheets-server/build/libs/timesheets-server-thatha.jar
+- name: tracker-timesheets
+  path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
   - route: timesheets-pal-thatha.cfapps.io
   memory: 1G
