@@ -34,6 +34,7 @@ jobs:
       deploy: &github
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
+
         file:
           - "applications/allocations-server/build/libs/allocations-server.jar"
           - "applications/backlog-server/build/libs/backlog-server.jar"
