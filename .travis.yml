@@ -35,7 +35,10 @@ jobs:
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
         file:
-          - "applications/${APPLICATION}-server/build/libs/${APPLICATION}-server.jar"
+          - "applications/allocations-server/build/libs/allocations-server.jar"
+          - "applications/backlog-server/build/libs/backlog-server.jar"
+          - "applications/registration-server/build/libs/registration-server.jar"
+          - "applications/timesheets-server/build/libs/timesheets-server.jar"
         skip_cleanup: true
 
     - stage: build and publish
