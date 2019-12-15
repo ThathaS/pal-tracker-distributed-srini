@@ -1,9 +1,9 @@
 rootProject.name = "pal-tracker-distributed-srini"
 
-include "applications:allocations-server"
-include "applications:backlog-server"
-include "applications:registration-server"
-include "applications:timesheets-server"
+include "applications:allocations-server-thatha"
+include "applications:backlog-server-thatha"
+include "applications:registration-server-thatha"
+include "applications:timesheets-server-thatha"
 
 include "components:accounts"
 include "components:allocations"
