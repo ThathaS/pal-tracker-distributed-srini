@@ -36,7 +36,7 @@ jobs:
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
         file:
-          - "applications/${APPLICATION}-server/build/libs/${APPLICATION}-server-thatha.jar"
+          - "applications/${APPLICATION}-server-thatha/build/libs/${APPLICATION}-server-thatha.jar"
         skip_cleanup: true
 
     - stage: build and publish
