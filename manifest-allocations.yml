@@ -1,5 +1,5 @@
 applications:
-- name: tracker-allocations
+- name: tracker-allocations-thatha
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
   - route: allocations-pal-thatha.cfapps.io
