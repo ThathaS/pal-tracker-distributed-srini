@@ -148,14 +148,7 @@ jobs:
       language: bash
       script:
         - echo "Downloading timesheets server $RELEASE_TAG"
-        - wget -P applications/timesheets-server/build/libs https://github.com/
-
-
-
-
-
-
-          g/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/timesheets-server.jar
+        - wget -P applications/timesheets-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/timesheets-server.jar
       before_deploy:
         - cp manifest-timesheets.yml manifest.yml
         - echo "Deploying timesheets server $RELEASE_TAG"
