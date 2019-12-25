@@ -3,4 +3,5 @@ databases {
     testDatabase = "tracker_allocations_test"
     cfDatabase = "tracker-allocations-database-thatha"
     cfApp = "tracker-allocations-thatha"
+
 }
